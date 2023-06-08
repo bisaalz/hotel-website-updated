@@ -1,0 +1,55 @@
+
+.root {
+  overflow: hidden;
+  --swiper-pagination-color:#fff;
+
+}
+
+//headers tailwind
+
+  
+.nc-header-bg {
+    @apply bg-white/70 dark:bg-neutral-900/60 backdrop-blur-2xl backdrop-filter;
+  }
+  
+  .nc-icon-field {
+    height: 1.75rem;
+    width: 1.75rem;
+  }
+  
+  .nc-hero-field-padding {
+    padding: 1.5rem 2rem;
+  }
+
+  .mySwiper
+  {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-button-next,
+  .swiper-button-prev {
+    color: white !important;
+    
+  }
+  .swiper-pagination-bullet-active  {
+    color: white !important;
+  }
+
+
+
+.progress-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 10px;
+  background: "red";
+  transform-origin: 0%;
+}
+
+
+
+ 
+
+
